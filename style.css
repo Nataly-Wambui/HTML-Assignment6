@@ -1,0 +1,314 @@
+body{
+    width: 1200px;
+    margin: 5% 15%;
+    padding: 20px;
+}
+nav{
+    display: flex;
+}
+.task{
+margin: 0% 3%;
+-webkit-text-fill-color: black;
+}
+#logbutton{
+    border: none;
+}
+#listbutton{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(106, 205, 249);
+    border: none;
+    color: white;
+    font-size: 90%;
+    border-radius: 20px;
+}
+#page1{
+    text-align: center;
+    font-size: 200%;
+    line-height: 30px;
+}
+#button2{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(31, 53, 132);
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.button3{
+    margin: 0% 1%;
+    border: none;
+    align-items: center;
+    font-size: 70%;
+}
+#mainhouse{
+    width: 1200px;
+    height: 600px;
+    border-radius: 40px;
+}
+#button4{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(106, 205, 249);
+    border: none;
+    color: white;
+    font-size: 90%;
+    border-radius: 20px;
+}
+#Page2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+}
+.page2{
+    margin-right: 15%;
+    text-align: center;
+}
+#buyandsell{
+    display: flex;
+    text-align: center;
+    font-size: 130%;
+}
+#page3{
+    text-align: center;
+    padding: 0px 150px;
+}
+.buysell{
+    width: 300px;
+    height: 200px;
+    justify-content: space-between;
+}
+#listings{
+    display: flex;
+}
+.listing{
+    width: 300px;
+    height: 200px;
+}
+#page5{
+    display: flex;
+}
+#pg5prt2{
+    margin-left: 3%;
+}
+#mainhouse2{
+    width: 800px;
+    height: 450px;
+    border-radius: 30px;
+}
+#pg6prt1{
+    display: flex;
+}
+.approach{
+    width: 270px;
+    height: 300px;
+
+}
+#page7{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.pg7prt1{
+    margin-right: 10%;
+}
+#page8{
+    display: flex;
+}
+#review{
+    width: 500px;
+    height: 450px;
+}
+#pg8prt2{
+    margin-left: 10%;
+}
+#page9{
+    text-align: center;
+}
+input{
+    border: none;
+}
+#button5{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(31, 53, 132);
+    border: none;
+    color: white;
+    font-size: 90%;
+    border-radius: 20px;
+}
+#TandC{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#lastpage{
+    display: flex;
+}
+.about{
+    margin-left: 10%;
+}
+#lastimage{
+    width: 1200px;
+    height: 700px;
+}
+
+/* media query for responsiveness */
+@media screen and (max-width:480px){
+    body{
+        padding: 0px;
+        margin-left: 2%;
+        margin-right: 0%;
+        flex-wrap: wrap;
+        width: 420px;
+        font-size: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #page1{
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    #mainhouse{
+        width: 350px;
+        height: 300px;
+    }
+    #Page2{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .page2{
+        margin-right: 0%;
+    }
+    #button2{
+        width: 200px;
+        height: 15px;
+    }
+    #page3{
+        text-align: center;
+        padding: 0px;
+        margin-left: 0%;
+        grid-template-columns: 1 1fr;
+    }
+    .buysell{
+        width: 200px;
+        height: 100px;
+        margin-left: 0%;
+        justify-content: left;
+    }
+    #buyandsell{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1 1fr;
+        margin-left: 0%;
+        text-align: left;
+        font-size: 10px;
+        justify-content: left;
+    }
+    #page4{
+        flex-wrap: wrap;
+    }
+    .listing{
+        margin-left: 0%;
+    }
+    #listings{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        margin-left: 0%;
+    }
+    #page5{
+        display: grid;
+        flex-wrap: wrap;
+        flex-direction: column;
+        grid-template-columns: 1 1fr;
+        padding: 0%;
+    }
+    #pg5prt2{
+        margin-left: 0%;
+    }
+    #mainhouse2{
+        width: 350px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    #pg6prt1{
+        display: grid;
+        gap: 1%;
+        grid-template-columns: 1 1fr;
+    }
+    #page7{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .pg7prt1{
+        margin-right: 0%;
+    }
+    #page8{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    #review{
+        width: 300px;
+        height: 350px;
+    }
+    #pg8prt2{
+        margin-left: 0%;
+        flex-wrap: wrap;
+    }
+    #page9{
+        display: grid;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        justify-content: left;
+    }
+    #button4{
+        font-size: 10px;
+    }
+    #button5{
+        width: 80px;
+        height: 30px;
+       flex-wrap: wrap;
+    }
+    #lastpage{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        gap: 1%;
+        padding: 0px;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+    #lastimage{
+        width: 350px;
+        height: 200px;
+    }
+    .about{
+        margin-left: 0%;
+    }
+    #TandC{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto;
+        padding: 0px;
+        margin-left: 0%;
+        text-align: left;
+    }
+    p{
+        font-size: 10px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    h1{
+        font-size: 15px;
+    }
+}
+
+
